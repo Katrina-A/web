@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+header
+{
+    width: 100%;
+    background: #f987ff;
+    display: flex;
+}
+.logo
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 35px;
+    margin-left: 12%;
+    font-size: 30px;
+}
+nav
+{
+    margin-top: 45px;
+    margin-left: 29%;
+}
+.inst_nav a
+{
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    font-size: 16px;
+}
+.inst_nav a:hover
+{
+    border-bottom: 3px solid #a863a5;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .inst_welcome
+{
+    text-align: center;
+    padding: 190px 0 400px 0;
+    color: #e72eff;
+}
+.line
+{
+    width: 150px;
+    height: 4px;
+    background:#a863a5;
+    position: relative;
+    left: 44.5%;
+}
+.photo_1
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.photo_2
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.photo_3
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.my_card
+{
+    color: #ffffff ;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    background: #f987ff;
+}
+.my_photo
+{
+    margin: 0 20px auto;
+}
+.contact
+{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
